@@ -1,10 +1,12 @@
 import "./App.css";
-import ThreeDModel from "./components/ThreeDModel/ThreeDModel";
+import HomePage from "./components/HomePage/HomePage";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <ThreeDModel />
+      <Navbar />
+      <HomePage />
     </div>
   );
 }
